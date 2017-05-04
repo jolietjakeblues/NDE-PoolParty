@@ -1,0 +1,2 @@
+SELECT *
+WHERE { ?s skos:scopeNote ?scopeNote . FILTER (regex(str(?scopeNote), "\\G(?!.+\\x{002E}.+\\x{002E})"))}
